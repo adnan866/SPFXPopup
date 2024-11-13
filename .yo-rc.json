@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.11.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "popup-slider",
+    "libraryId": "ecb8569f-7888-4e9c-96ff-0b9a0781d529",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "popup_slider",
+    "solutionShortDescription": "popup_slider description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

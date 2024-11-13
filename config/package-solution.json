@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "popup-slider-client-side-solution",
+    "id": "ecb8569f-7888-4e9c-96ff-0b9a0781d529",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "popup_slider description"
+      },
+      "longDescription": {
+        "default": "popup_slider description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "popup-slider Feature",
+        "description": "The feature that activates elements of the popup-slider solution.",
+        "id": "cbf41528-1af0-4635-9028-1816e513fdc7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/popup-slider.sppkg"
+  }
+}

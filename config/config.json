@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "popup-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/popupSlider/PopupSliderWebPart.js",
+          "manifest": "./src/webparts/popupSlider/PopupSliderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PopupSliderWebPartStrings": "lib/webparts/popupSlider/loc/{locale}.js"
+  }
+}
